@@ -1,0 +1,49 @@
+package org.apache.ibatis.domain;
+
+/**
+ * @author yangyang.jiang
+ * @Description:
+ * @create 2020/8/17
+ * @time 9:56 上午
+ */
+public class User {
+
+  private Long id;
+
+  private String name;
+
+  private String password;
+
+  @Override
+  public String toString() {
+    return "User{" +
+      "id=" + id +
+      ", name='" + name + '\'' +
+      ", password='" + password + '\'' +
+      '}';
+  }
+
+  public Long getId() {
+    return id;
+  }
+
+  public void setId(Long id) {
+    this.id = id;
+  }
+
+  public String getName() {
+    return name;
+  }
+
+  public void setName(String name) {
+    this.name = name;
+  }
+
+  public String getPassword() {
+    return password;
+  }
+
+  public void setPassword(String password) {
+    this.password = password;
+  }
+}
